@@ -24,22 +24,6 @@ const Myweather = () => {
     })(location);
   }, [location]);
 
-  // const fetchWeather = async (location) => {
-  //   try {
-  //     seterror(false);
-  //     const response = await axios.get(
-  //       `http://api.weatherapi.com/v1/current.json?key=16c86a8a94ca4fa58fc94700240806&q=${location}`
-  //     );
-  //     setweather(response.data);
-  //   } catch (error) {
-  //     seterror(true);
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   fetchWeather(location);
-  // }, [location]);
-
   if (!weather) {
     return <h1>Loading...</h1>;
   }

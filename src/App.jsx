@@ -3,11 +3,11 @@ import React from "react";
 // import FetchSecond from "./Components/FetchSecond";
 // import Fetchthird from "./Components/Fetchthird";
 // import Weatherapp from "./Components/Weatherapp";
-// import Myweather from "./Components/Weather/Myweather";
+import Myweather from "./Components/Weather/Myweather";
 // import Fetchfour from "./Components/Fetchfour";
 // import Cricket from "./Components/Cricket";
 // import Crick from "./Components/Crick";
-import News from "./Components/News/News";
+// import News from "./Components/News/News";
 const App = () => {
   return (
     <>
@@ -17,8 +17,8 @@ const App = () => {
       {/* <Fetchfour></Fetchfour> */}
       {/* <Crick></Crick> */}
       {/* <Weatherapp></Weatherapp> */}
-      {/* <Myweather></Myweather> */}
-      <News></News>
+      <Myweather></Myweather>
+      {/* <News></News> */}
     </>
   );
 };
